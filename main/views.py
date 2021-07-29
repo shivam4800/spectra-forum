@@ -76,7 +76,7 @@ def homePage(request):
     context = {
         'questions': questions
     }
-    return render(request, '../Spectra/templates/homepage.html', context)
+    return render(request, 'homepage.html', context)
 
 def questionPage(request, id):
     response_form = NewResponseForm()
