@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-@%pdtmsr9na))dyqc7r_(uolek9q8us(2ze09)-u@50r6-pdgm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','sampledomain.com']
+ALLOWED_HOSTS = ['127.0.0.1','spectra-forum.herokuapp.com']
 
 
 # Application definition
