@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}?{% now "U" %}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="{% static 'js/main.js' %}?{% now "U" %}"></script>
+    <title></title>
+  </head>
+  <body>
+  <center>
+    <div class="main-title">  
+
+    <h1> <i class="fa fa-comments" style="color:#FFD369;"></i> SPECTRA</h1>
+    <h2>Ask, answer or discuss - anytime, anywhere.</h2>
+    </div>
+  </center>
+    <div class="main">
+    
+    {% include 'navbar.html' %}
+    {% block content %}
+    {% endblock %}
+    </div>
+
+    <div class="footer">
+  <p>Developed by Shivam Sandeep Bhasin</p>
+</div>
+  </body>
+</html>
